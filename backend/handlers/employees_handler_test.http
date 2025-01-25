@@ -1,0 +1,37 @@
+@localhost = http://127.0.0.1:3000/employees/
+@contentType = application/json
+
+### DUMMY
+POST {{localhost}}GET_EMPLOYEES
+Content-Type: {{contentType}}
+### ADD
+POST {{localhost}}ADD_EMPLOYEE
+Content-Type: {{contentType}}
+
+{
+    "Name": "k.Pavan",
+    "Age": 55,
+    "Department": "IT",
+    "Email": "pavan@gmail.com"
+}
+
+###
+
+POST {{localhost}}UPDATE_EMPLOYEE
+Content-Type: {{contentType}}
+
+{
+    "EmployeeId": 11,
+    "Name": "Zookesh",
+    "Age": 36,
+    "Department": "ECE",
+    "Email": "zookesh@gmail.com"
+}
+
+###
+POST {{localhost}}DELETE_EMPLOYEE
+Content-Type: {{contentType}}
+
+{
+    "EmployeeId": 11,
+}

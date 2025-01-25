@@ -1,0 +1,17 @@
+{
+  "name": "inern_core_app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kommineni",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "latest",
+    "mysql2": "latest",
+    "nodemon": "^3.1.9"
+  }
+}
